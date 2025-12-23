@@ -1,8 +1,9 @@
 name: Daily job
 
 on:
-  schedule:
-    - cron: "30 5 * * *"
+  # Temporariamente desabilitado - descomente para reativar
+  # schedule:
+  #   - cron: "30 5 * * *"
 
 jobs:
   clean:

@@ -1,8 +1,9 @@
 name: Monthly job
 
 on:
-  schedule:
-    - cron: "30 6 1 * *"
+  # Temporariamente desabilitado - descomente para reativar
+  # schedule:
+  #   - cron: "30 6 1 * *"
 
 jobs:
   clean:

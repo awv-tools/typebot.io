@@ -1,8 +1,9 @@
 name: Hourly job
 
 on:
-  schedule:
-    - cron: "0 * * * *"
+  # Temporariamente desabilitado - descomente para reativar
+  # schedule:
+  #   - cron: "0 * * * *"
 
 jobs:
   send:
